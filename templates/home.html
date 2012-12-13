@@ -50,10 +50,44 @@
     <div class="container-narrow">
         <div class="masthead">
             <ul class="nav nav-pills pull-right">
-
+                <li><a href="#help" data-toggle="modal">Help</a></li>
+                <li><a href="#about" data-toggle="modal">About</a></li>
             </ul>
             <h3 class="muted">Tech Team Dranks</h3>
         </div>
+
+        <div class="modal hide fade" id="help">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+                <h3>Help!</h3>
+            </div>
+
+            <div class="modal-body">
+                <p>What in the hell could you possibly need help with? It's a form with three fields.</p>
+            </div>
+
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal" aria-hidden="true">Close</a>
+            </div>
+
+        </div>
+
+        <div class="modal hide fade" id="about">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+                <h3>About Tech Team Dranks!</h3>
+            </div>
+
+            <div class="modal-body">
+                <p>We decided to build this because people need a drink sometimes. And what better time than the holidays? And what better team than the Tech Team?</p>
+            </div>
+
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal" aria-hidden="true">Close</a>
+            </div>
+
+        </div>
+
 
         <hr>
 
@@ -86,6 +120,10 @@
                 {% endfor %}
             </div>
 
+        </div>
+
+        <div class="footer">
+            <p>&copy; TECH TEAM, SON!</p>
         </div>
 
 
